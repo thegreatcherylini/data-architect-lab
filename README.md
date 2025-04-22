@@ -1,4 +1,8 @@
 # Delta Lake Demo (Databricks Community Edition)
+![Databricks](https://img.shields.io/badge/Built%20With-Databricks-orange?logo=databricks)
+![Delta Lake](https://img.shields.io/badge/Data%20Format-Delta%20Lake-blue?logo=apachespark)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
 Welcome! This project demonstrates foundational data engineering tasks using Databricks, Delta Lake, and the Databricks File System (DBFS). It’s designed for practicing data architects who want hands-on experience with Delta Lake features in a collaborative notebook environment.
 
