@@ -28,6 +28,22 @@ This is the first in a series of small, practical projects designed to build and
 - Append data and observe schema enforcement
 - Push notebooks to GitHub and organize your project
 
+## 🗺️ Project Roadmap
+
+This lab is part of a broader initiative to strengthen architectural intuition through hands-on experimentation with modern data platforms.
+
+| Milestone | Description |
+|-----------|-------------|
+| ✅ Phase 1: Delta Lake Fundamentals | Create, query, time travel, and update Delta tables using Databricks Community Edition |
+| 🔄 Phase 2: Streaming & Joins | Implement structured streaming and join Delta tables for enriched analytics workflows |
+| ⏳ Phase 3: Orchestration & Pipelines | Introduce notebook workflows and pipeline orchestration with Databricks Jobs |
+| 🧪 Phase 4: Data Quality Checks | Add data validation with tools like `expectations` or simple custom checks |
+| 🔒 Phase 5: Governance Concepts | Apply Unity Catalog concepts (in full Databricks version) and explore RBAC patterns |
+| 📊 Phase 6: BI + Visualization | Connect outputs to Power BI or Tableau; experiment with dashboards and data products |
+| 🚀 Phase 7: Cloud Integration | Extend to Azure or AWS with real blob storage for enterprise-scale workflows |
+
+💡 *This roadmap is intentionally modular so each notebook can stand alone as a focused learning experience.*
+
 ## 📁 Folder Structure
 
 ├── 01_delta_lake_demo.py # Main notebook with Spark + Delta Lake code ├── team_roster.csv # Example CSV uploaded to DBFS ├── README.md # You’re here! ├── LICENSE └── Untitled Diagram.drawio # ERD / architecture sketch (optional)
