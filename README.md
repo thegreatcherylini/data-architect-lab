@@ -44,6 +44,33 @@ This lab is part of a broader initiative to strengthen architectural intuition t
 
 💡 *This roadmap is intentionally modular so each notebook can stand alone as a focused learning experience.*
 
+## ⚙️ Setup & Usage
+
+This project runs entirely in **Databricks Community Edition**—no paid cloud account required.
+
+### 1. 🚀 Get Started
+- Sign up at [Databricks Community Edition](https://community.cloud.databricks.com)
+- Create a new notebook and attach it to a running cluster
+- Clone or copy the notebook code from this repo into your Databricks workspace
+
+### 2. 📁 Upload Data
+- Use the `Upload Data` button in Databricks to upload sample CSVs to DBFS
+- For example: `/dbfs/tmp/team_roster.csv`
+
+### 3. 🧪 Run the Notebook
+- Load CSVs into Spark DataFrames
+- Save and query Delta tables
+- Use `DESCRIBE HISTORY` to explore Time Travel
+
+### 4. 🔁 Experiment
+- Try appending new rows, updating values, or rewriting the table
+- Enable schema evolution with `.option("mergeSchema", "true")` on writes
+- Practice version control with GitHub by pushing your notebook updates
+
+---
+
+📌 *No local setup needed—this project is entirely cloud-hosted for simplicity and speed.*
+
 ## 📁 Folder Structure
 
 ├── 01_delta_lake_demo.py # Main notebook with Spark + Delta Lake code ├── team_roster.csv # Example CSV uploaded to DBFS ├── README.md # You’re here! ├── LICENSE └── Untitled Diagram.drawio # ERD / architecture sketch (optional)
