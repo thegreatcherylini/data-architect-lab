@@ -4,9 +4,9 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
+🧭 About This Project
 Welcome! This project demonstrates foundational data engineering tasks using Databricks, Delta Lake, and the Databricks File System (DBFS). It’s designed for practicing data architects who want hands-on experience with Delta Lake features in a collaborative notebook environment.
 
-🧭 About This Project
 This repository contains a guided hands-on lab exploring foundational data engineering tasks using Databricks Community Edition and Delta Lake. Designed for data architects and analytics professionals, it simulates real-world scenarios such as writing Delta tables, versioning data with Time Travel, and ingesting files into Spark using the Databricks File System (DBFS).
 
 The goal of this project is to:
